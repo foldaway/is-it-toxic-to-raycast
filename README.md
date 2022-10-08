@@ -1,3 +1,3 @@
 # Is It Toxic To?
 
-Check if a plant is toxic to your cat
+Check if a plant is toxic to an animal
