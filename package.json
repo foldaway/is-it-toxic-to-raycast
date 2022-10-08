@@ -3,7 +3,7 @@
   "name": "is-it-toxic-to",
   "title": "Is It Toxic To?",
   "description": "Check if a plant is toxic to your cat",
-  "icon": "command-icon.png",
+  "icon": "iitt-icon.png",
   "author": "chesterhow",
   "categories": [
     "Fun",
@@ -20,7 +20,8 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.40.3"
+    "@raycast/api": "^1.40.3",
+    "axios": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "16.10.3",
