@@ -2,9 +2,12 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "is-it-toxic-to",
   "title": "Is It Toxic To?",
-  "description": "Check if a plant is toxic to your cat",
-  "icon": "command-icon.png",
+  "description": "Check if a plant is toxic to an animal",
+  "icon": "iitt-icon.png",
   "author": "chesterhow",
+  "contributors": [
+    "pernielsentikaer"
+  ],
   "categories": [
     "Fun",
     "Data",
@@ -14,13 +17,14 @@
   "commands": [
     {
       "name": "index",
-      "title": "iitt",
-      "description": "",
+      "title": "Is It Toxic To?",
+      "description": "Check if a plant is toxic to an animal",
       "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.40.3"
+    "@raycast/api": "^1.40.3",
+    "@raycast/utils": "^1.4.9"
   },
   "devDependencies": {
     "@types/node": "16.10.3",
